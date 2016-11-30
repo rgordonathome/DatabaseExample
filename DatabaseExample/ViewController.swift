@@ -249,9 +249,10 @@ class ViewController: UIViewController {
 
         }
         
+        
         print("Another row?")
         print(results?.hasAnotherRow())
-        print("total results count")
+        print("contents of next row")
         print(results?.resultDictionary())
     }
 }
